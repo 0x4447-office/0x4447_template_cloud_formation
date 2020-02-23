@@ -24,7 +24,7 @@
 							},
 							"Configuration": {
 								"Owner": { "Ref": "GitHubAccountOwnerParam" },
-								"Repo": "0x4447_template_cloud_formation",
+								"Repo": "REPO_NAME",
 								"Branch": { "Ref": "StageParam" },
 								"PollForSourceChanges": false,
 								"OAuthToken": { "Ref": "GitHubTokenParam" }
